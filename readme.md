@@ -131,11 +131,11 @@ you can deposit/ withraw/ see balance
 	Change withraw fee (only for this test, default fee is zero.)
 	
 	3-6 : Change Withraw Fee and withraw test 
-	      * change withraw fee 1 dollar
+	      * change withraw fee to 1 dollar
 	      * firstly, deposit 10 , withraw 5 dollars, withraw 3 dollars. 
   
 	3-7 : Change Withraw Fee and Not enough balance test
-	      * firstly, deposit 10 and withraw 10. in this case, the error occur because it costs 1 dollar fee.(not enough balance)
+	      * firstly, deposit 10 and withraw 10. in this case, the error occurs because it costs 1 dollar fee.(not enough balance)
 
 <br/>
 
