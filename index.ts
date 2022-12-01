@@ -1,6 +1,6 @@
 // if you want to run in Browser Environment, Uncomment annotation below
 
-
+/*
 import { BankAccount } from './src/bank_account';
 import { BankAPI } from './src/bank_api';
 import { BankCard } from './src/bank_card';
@@ -12,7 +12,7 @@ const myBankAccount = new BankAccount('48502352010012', '0123', 'minwoo');
 BankAPI.enrollAccount(myBankAccount);
 
 // cerate bankCard(checkCard)
-const myBankCard = new BankCard('48502352010012', 'minwoo'); // accountNo. username,cardId
+const myBankCard = new BankCard('48502352010012', 'minwoo'); 
 
 const atmController = new ATMController();
 console.log(atmController.insertCard(myBankCard, '0123'));
@@ -20,4 +20,4 @@ console.log(atmController.insertCard(myBankCard, '0123'));
 console.log('your balance',atmController.deposit(20));
 console.log('your balance',atmController.withraw(5));
 console.log('your balance', atmController.getBalance());
-
+*/
